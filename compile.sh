@@ -6,5 +6,5 @@ if ! [ -x "$(command -v lessc)" ]; then
 	exit 1;
 fi
 
-lessc less/stickynote.less css/stickynote.css;
+lessc less/stickynote.less compiled-css/stickynote.css;
 exit 0;

@@ -10,6 +10,9 @@
 /**
  * elevations.less
  */
+body {
+  margin: 0px;
+}
 /**
  * content.less
  */
@@ -25,6 +28,8 @@
   height: 50px;
   width: 100%;
   z-index: 999;
+  box-shadow: 0px 3px 5px #000000;
+  padding: 10px;
 }
 .nav--title {
   color: #ffffff;
